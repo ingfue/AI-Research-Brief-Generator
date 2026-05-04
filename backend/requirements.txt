@@ -1,0 +1,20 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.18
+python-dotenv>=1.1.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+
+# Azure SDKs
+azure-storage-blob>=12.24.0
+azure-search-documents>=11.6.0
+azure-identity>=1.19.0
+azure-ai-projects==1.0.0b10
+azure-ai-textanalytics>=5.3.0
+openai>=1.40.0
+
+# Document generation
+python-docx>=1.1.2
+
+# Utilities
+httpx>=0.28.0

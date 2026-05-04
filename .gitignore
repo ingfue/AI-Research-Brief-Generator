@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Environment (never commit secrets)
+.env
+.env.*
+!**/.env.example
+*.env.local
+
+# Ephemeral files from infra/setup-azure.ps1 (normally deleted after use)
+infra/aoai-conn.yml
+infra/search-conn.yml
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated docs
+*.docx
+!backend/templates/*.docx
+![TEMPLATE]*.docx

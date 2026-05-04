@@ -1,0 +1,121 @@
+{
+  "deal": {
+    "deal_id": "D-10482",
+    "deal_stage": "closed_won",
+    "close_date": "2026-02-24",
+    "company": {
+      "company_id": "C-7781",
+      "name": "Earth's Own",
+      "industry": "CPG / Beverage"
+    },
+    "primary_contact": {
+      "contact_id": "P-3309",
+      "name": "Sarah Lee",
+      "title": "Senior Brand Manager",
+      "email": "sarah.lee@earthsown.example"
+    },
+    "key_fields": {
+      "budget_range": "CAD 40,000–60,000",
+      "target_kickoff": "2026-03-10",
+      "target_delivery": "2026-04-15",
+      "region_focus": "Canada",
+      "priority_competitors": ["Oatly", "Califia Farms", "Silk"],
+      "internal_owner": "Alex (Sales)"
+    }
+  },
+  "activities": [
+    {
+      "activity_id": "A-9001",
+      "type": "EMAIL",
+      "direction": "INBOUND",
+      "timestamp": "2026-02-18T17:42:00Z",
+      "from": {
+        "name": "Sarah Lee",
+        "email": "sarah.lee@earthsown.example"
+      },
+      "to": [
+        { "name": "Alex (Sales)", "email": "alex@rightmetric.example" }
+      ],
+      "cc": [
+        { "name": "Daniel Park", "email": "daniel.park@earthsown.example" }
+      ],
+      "subject": "Looking for competitive intel support for upcoming oat launch",
+      "body": "Hi Alex — We're preparing for a new oat milk launch in mid-May and want a fast, leadership-ready view of what Oatly + Califia are doing in Canada. We've used similar reports before and want something that blends data with clear takeaways.\n\nWe care most about:\n1) Paid Search: brand vs generic keywords, messaging themes, landing pages.\n2) Social / Video: what's working on YouTube/IG/TikTok, creative patterns, creators.\n3) Paid Media: where they're investing (channels + spend directionally), and any recent spikes.\n\nWe'd love a concise brief and a deck we can share internally. Timing is tight — ideally we start in March and have outputs by mid-April.\n\nBudget is likely in the 40–60K CAD range but we can confirm after a quick scoping call.\n\nThanks!\nSarah"
+    },
+    {
+      "activity_id": "A-9002",
+      "type": "EMAIL",
+      "direction": "OUTBOUND",
+      "timestamp": "2026-02-18T20:10:00Z",
+      "from": {
+        "name": "Alex (Sales)",
+        "email": "alex@rightmetric.example"
+      },
+      "to": [
+        { "name": "Sarah Lee", "email": "sarah.lee@earthsown.example" }
+      ],
+      "subject": "Re: competitive intel support for upcoming oat launch",
+      "body": "Thanks Sarah — makes sense. A couple quick questions so we scope this right:\n\n1) Which competitors are must-have vs nice-to-have? (You mentioned Oatly + Califia)\n2) Do you want a one-time snapshot, or a short trend view (last 6–12 months)?\n3) Any specific channels you *don't* care about?\n\nIf you're free Thursday, we can do 25 minutes to lock scope + timeline.\n\nAlex"
+    },
+    {
+      "activity_id": "A-9003",
+      "type": "EMAIL",
+      "direction": "INBOUND",
+      "timestamp": "2026-02-19T16:05:00Z",
+      "from": {
+        "name": "Sarah Lee",
+        "email": "sarah.lee@earthsown.example"
+      },
+      "to": [
+        { "name": "Alex (Sales)", "email": "alex@rightmetric.example" }
+      ],
+      "subject": "Re: competitive intel support for upcoming oat launch",
+      "body": "Hi Alex — must-have competitors: Oatly + Califia. Nice-to-have: Silk (mostly for paid search comparisons).\n\nTrend window: last 12 months is ideal, but if that's heavy, last 6 months is fine.\n\nChannels we care about most: Paid Search + YouTube. Secondary: Instagram/TikTok. We're less focused on display unless you see a meaningful spike.\n\nAlso, leadership wants 3–5 clear 'so what' strategic implications, not just charts.\n\nThursday works — anytime between 11am–2pm PT.\n\nSarah"
+    },
+    {
+      "activity_id": "A-9004",
+      "type": "MEETING_NOTES",
+      "timestamp": "2026-02-20T20:30:00Z",
+      "meeting": {
+        "title": "Scoping call — Earth's Own competitive intel",
+        "duration_minutes": 28,
+        "attendees": [
+          { "name": "Sarah Lee", "email": "sarah.lee@earthsown.example", "role": "Client" },
+          { "name": "Daniel Park", "email": "daniel.park@earthsown.example", "role": "Client" },
+          { "name": "Alex (Sales)", "email": "alex@rightmetric.example", "role": "Sales" }
+        ]
+      },
+      "notes": "Goals: leadership-ready view of Oatly + Califia activity in Canada to inform Earth's Own oat launch (target May 15).\n\nKey questions they want answered:\n- Are competitors increasing paid search and what messaging angles are emerging?\n- What creative patterns are working on YouTube and what topics/creators are they leaning into?\n- Any recent spikes in spend, traffic, or video views that suggest a campaign push?\n\nDeliverables discussed:\n- 10–12 slide deck (executive summary + key findings)\n- 1-page client brief / strategic implications section\n\nConstraints:\n- Tight timeline; want kickoff March 10 and delivery by April 15.\n- They prefer directional spend ranges rather than exact figures (as long as trends are credible).\n\nSuccess criteria:\n- 3–5 actionable implications for Earth's Own launch strategy (channel focus, messaging themes, creative do's/don'ts).\n\nBudget:\n- Confirmed comfortable range CAD 40–60K."
+    },
+    {
+      "activity_id": "A-9005",
+      "type": "EMAIL",
+      "direction": "INBOUND",
+      "timestamp": "2026-02-21T18:12:00Z",
+      "from": {
+        "name": "Daniel Park",
+        "email": "daniel.park@earthsown.example"
+      },
+      "to": [
+        { "name": "Alex (Sales)", "email": "alex@rightmetric.example" }
+      ],
+      "subject": "Extra context + what leadership cares about",
+      "body": "Hey Alex — adding a bit more color:\n\nLeadership is very focused on:\n- 'Where should we place our bets?' (Search vs Video vs Social)\n- 'What messages are landing?' (taste, health, sustainability, price/value)\n- 'What should we avoid copying?' (tired creative tropes)\n\nIf possible, include a short section called \"Recommended Moves for Earth's Own\" with 5 bullets.\n\nThanks,\nDaniel"
+    }
+  ],
+  "brief_requirements": {
+    "tone": "Professional, concise, leadership-ready",
+    "format_sections": [
+      "Client Overview",
+      "Project Objective",
+      "Primary Questions",
+      "Competitor Scope",
+      "Channels & Data Sources",
+      "Deliverables",
+      "Timeline",
+      "Budget",
+      "Success Criteria",
+      "Strategic Notes / Implications"
+    ]
+  }
+}
